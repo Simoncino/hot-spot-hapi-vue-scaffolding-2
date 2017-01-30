@@ -1,0 +1,72 @@
+[
+	{
+		"id": "1",
+		"nome" : "Simone",
+		"cognome" : "Lacarpia",
+		"username" : "IlSima",
+		"password" : "asd",
+		"email" : "simone.lacarpia@gmail.com",
+		"eta" : "35",
+		"ruolo" : "administrator",
+		"note" : " - ",
+		"random" : 0
+		,"spot": []
+		,"social": [
+			{"nome": "facebook" ,"link": "https://www.facebook.com/simone.lacarpia"}
+			,{"nome": "instagram" ,"link": "https://www.instagram.com/ilsima81/"}
+			,{"nome": "twitter" ,"link": "https://twitter.com/Simoncino81?lang=it"}
+		]
+	}
+	,{
+		"id": "2",
+		"nome" : "Riley",
+		"cognome" : "Reid",
+		"username" : "RileyReid",
+		"password" : "asd",
+		"email" : "riley.reid@gmail.com",
+		"eta" : "26",
+		"ruolo" : "user",
+		"note" : " - "
+		,"random" : 0
+		,"spot": []
+		,"social": [
+			{"nome": "facebook" ,"link": "https://www.facebook.com/riley.reid.796"}
+			,{"nome": "twitter" ,"link": "https://twitter.com/RileyReidx3"}
+		]
+	}
+	,{
+		"id": "3",
+		"nome" : "Riley",
+		"cognome" : "Reinolds",
+		"username" : "RileyRey",
+		"password" : "asd",
+		"email" : "riley.rey@gmail.com",
+		"eta" : "26",
+		"note" : " - "
+		,"ruolo" : "host"
+		,"random" : 0
+		,"spot": []
+		,"social": [
+			{"nome": "twitter" ,"link": "https://twitter.com/RileyReyXXX"}
+			,{"nome": "facebook" ,"link": "https://www.facebook.com/rileyreyesofficial/"}
+		]
+	}
+	,{
+		"id": "4",
+		"nome" : "Alexis",
+		"cognome" : "Reneg",
+		"username" : "AlexisRen",
+		"password" : "asd",
+		"email" : "a.ren@gmail.com",
+		"eta" : "24",
+		"ruolo" : "host",
+		"note" : " - ",
+		"random" : 0
+		,"spot": []
+		,"social": [
+			{"nome": "facebook" ,"link": "https://www.facebook.com/alexisrenofficial/?fref=ts"}
+			,{"nome": "instagram" ,"link": "https://www.instagram.com/alexisren/"}
+			,{"nome": "twitter" ,"link": "https://twitter.com/AlexisRenG"}
+		]
+	}
+]

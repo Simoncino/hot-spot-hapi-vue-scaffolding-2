@@ -1,0 +1,80 @@
+[
+	{
+		"id":"1"
+		,"nome": "Castello"
+		,"descrizione": "Castello di Santa Severa"
+		,"inidirizzo": "via Aurelia km XXX"
+		,"foto":[]
+		,"livello":[
+			"principiante"
+			,"medio"
+		]
+		,"tags":[
+			"destre"
+			,"sinistre"
+			,"sabbia"
+		]
+		,"tagsMappa": [
+			"Italia", "Lazio", "Santa Severa"
+		]
+	}
+	,{
+		"id":"2"
+		,"nome": "Toscanella"
+		,"descrizione": "Bar della Toscanella"
+		,"inidirizzo": "via Aurelia km XII"
+		,"foto":[]
+		,"livello":[
+			"medio"
+			,"esperto"
+		]
+		,"tags":[
+			"destre"
+			,"roccia"
+			,"ghiaia"
+		]
+		,"tagsMappa": [
+			"Italia", "Lazio", "Santa Marinella"
+		]
+	}
+	,{
+		"id":"3"
+		,"nome": "Banzai Sinistro"
+		,"descrizione": "All'entrata del bar della Toscanella sulla sinistra"
+		,"inidirizzo": "via Aurelia km XII"
+		,"foto":[]
+		,"livello":[
+			"medio"
+			,"esperto"
+		]
+		,"tags":[
+			"sinistre"
+			,"tubo"
+			,"roccia"
+			,"ghiaia"
+		]
+		,"tagsMappa": [
+			"Italia", "Lazio", "Santa Marinella"
+		]
+	}
+	,{
+		"id":"4"
+		,"nome": "Banzai"
+		,"descrizione": "Stabilimento balneare Banzai Santa Marinella"
+		,"inidirizzo": "via Aurelia km XI"
+		,"foto":[]
+		
+		,"livello":[
+			"esperto"
+		]
+		,"tags":[
+			"destre"
+			,"tubo"
+			,"roccia"
+			,"ghiaia"
+		]
+		,"tagsMappa": [
+			"Italia", "Lazio", "Santa Marinella"
+		]
+	}
+]

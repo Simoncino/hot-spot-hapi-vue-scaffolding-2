@@ -1,0 +1,46 @@
+[
+	{
+		"id":"1"
+		,"link":"IlSima/20170109/castello1.jpg"
+		,"nome":"Foto 1 1 1 1"
+		,"didascalia":"Vista panoramica"
+		,"ext": "jpg"
+	}
+	,{
+		"id":"2"
+		,"link":"IlSima/20170109/castello2.jpg"
+		,"nome":"Foto 2222"
+		,"didascalia":"Vista sinistra"
+		,"ext": "jpg"
+	}
+	,{
+		"id":"3"
+		,"link":"IlSima/20170109/castello3.jpg"
+		,"nome":"Foto 33333"
+		,"didascalia":"Vista destra"
+		,"ext": "jpg"
+	}
+	
+	,{
+		"id":"4"
+		,"link":"IlSima/20170109/img1.jpg"
+		,"nome":"Foto 33333"
+		,"didascalia":"Vista destra"
+		,"ext": "jpg"
+	}
+	,{
+		"id":"5"
+		,"link":"IlSima/20170109/img2.jpg"
+		,"nome":"Foto 33333"
+		,"didascalia":"Vista destra"
+		,"ext": "jpg"
+	}
+	,{
+		"id":"6"
+		,"link":"IlSima/20170109/img3.jpeg"
+		,"nome":"Foto 33333"
+		,"didascalia":"Vista destra"
+		,"ext": "jpg"
+	}
+
+]
