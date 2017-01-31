@@ -15,7 +15,7 @@
       </tr>
       <tr>
         <td colspan="2">
-          <button class="btnLogin" v-on:click="loginClick">Login</button>
+          <button class="btnLogin" v-on:click="login">Login</button>
         </td>
       </tr>
       <tr>
@@ -28,19 +28,23 @@
 </template>
 
 <script>
+
   export default {
     components: {
     },
     data: function() {
       return {
         username : "",
-        password : ""
+        password : "",
+        error : ""        
       }
     },
     methods: {
-      loginClick: function(){
-        
-
+      login : function(){
+        let userToLog = {};
+        userToLog.username = this.username;
+        userToLog.password = this.password;
+        this.$store.dispatch('LOGIN_REQUEST', userToLog);
       }
     }
   }

@@ -1,4 +1,4 @@
-import Login from './components/Login.vue'
+import Login from './components/login/Login.vue'
 
 const Foo = { template: '<div>foo</div>' }
 const Bar = { template: '<div>bar</div>' }
