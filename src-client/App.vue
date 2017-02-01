@@ -1,21 +1,14 @@
 <template>
   <div class="containerApp">
     <h2>App.vue</h2>
-    <img src="./assets/logo.png">
-    <h6>loggedUser</h6>
-    <pre>{{loggedUser}}</pre>
-    <h6>isLogged</h6>
-    <pre>{{isLogged}}</pre>
-    <h6>userLogged</h6>
-    <pre>{{userLogged}}</pre>
-    <h6>errorMessage</h6>
-    <pre>{{errorMessage}}</pre>
-    <router-view></router-view>
+    <hr>
+    <Cartina></Cartina>
   </div>
 </template>
 
 <script>
   import Login from './components/login/Login.vue'
+  import Cartina from './components/cartina/Cartina.vue'
   import { mapGetters, mapActions } from 'vuex'
   export default {
     created: function(){
@@ -24,27 +17,18 @@
       }
     },
     computed: {
-      ...mapGetters({
-          loggedUser : 'loggedUser',
-          isLogged: 'isLogged',
-          errorMessage: 'errorMessage'
-        }),
-      userLogged : function(){
-        console.log("-----------------------------", this.loggedUser);
-        if(this.isLogged){
-          this.$router.push('home');
-        } else {
-          this.$router.push('login');
-        }
-        return this.$store.state.login.loggedUser;
-      }
-
+      ...mapGetters([
+          'loggedUser',
+          'isLogged',
+          'errorMessage'
+        ])
     },
     props: {
 
     },
     components: {
-      Login
+      Login,
+      Cartina
     },
     data: function() {
       return {
