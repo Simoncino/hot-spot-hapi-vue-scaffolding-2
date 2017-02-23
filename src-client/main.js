@@ -1,4 +1,4 @@
-
+//import 'babel-polyfill'
 import Vue from 'vue'
 import App from './App.vue'
 import axios from 'axios'
@@ -6,6 +6,8 @@ import VueAxios from 'vue-axios'
 import VueRouter from 'vue-router'
 
 import routes from './routes.js'
+
+import store from './store'
 
 Vue.use(VueAxios, axios);
 Vue.use(VueRouter);
@@ -17,6 +19,7 @@ const router = new VueRouter({
 
 new Vue({
 	router,
+	store,
 	el: '#app',
 	data: {
 	},
